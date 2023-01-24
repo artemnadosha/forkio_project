@@ -3,8 +3,4 @@ node_modules/
 prettierignore
 prettierrc.js
 .DS_Store
-.prettierrc.js
-.prettierignore
-.DS_Store
-.prettierrc.js
-.prettierignore
+gulp/version.json
