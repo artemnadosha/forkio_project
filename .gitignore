@@ -1,9 +1,8 @@
 .idea/
 node_modules/
-prettierignore
-prettierrc.js
 .DS_Store
-gulp/version.json
+.prettierrc.js
+.prettierignore
 src/
 gulp/
 gulpfile.js
