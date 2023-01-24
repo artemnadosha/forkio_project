@@ -1,10 +1,10 @@
 .idea/
 node_modules/
+prettierignore
+prettierrc.js
 .DS_Store
 .prettierrc.js
 .prettierignore
-src/
-gulp/
-gulpfile.js
-package.json
-package-lock.json
+.DS_Store
+.prettierrc.js
+.prettierignore
