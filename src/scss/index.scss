@@ -5,9 +5,9 @@
 
 .container {
   width: 100%;
-  max-width: 1250px;
-  padding: 0 25px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
+@import "components/header";
 @import "components/main";
