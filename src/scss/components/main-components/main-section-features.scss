@@ -1,0 +1,134 @@
+.features {
+  width: 100%;
+  background: $feature-bg-color;
+  overflow: hidden;
+}
+
+.section-features {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-row-gap: 18px;
+
+  & .title {
+    color: $page-primary-color;
+    grid-column: 2 / 3;
+    text-align: left;
+    padding-left: 63px;
+
+    @media (max-width: 1072px) {
+      padding: 0;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 1072px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-row: 1 / 3;
+  gap: 20px;
+
+  @media (max-width: 1072px) {
+    padding: 0 50px;
+    gap: 40px;
+  }
+
+  @media (max-width: 500px) {
+    padding: 0 10px;
+  }
+
+}
+
+.features-item {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 33px;
+  }
+}
+
+.features-icon {
+  width: 111px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &.icon1 {
+    background-image: url("../img/features/icon1.svg");
+  }
+
+  &.icon2 {
+    background-image: url("../img/features/icon2.svg");
+  }
+
+  &.icon3 {
+    background-image: url("../img/features/icon3.svg");
+  }
+
+  &.icon4 {
+    background-image: url("../img/features/icon4.svg");
+  }
+}
+
+.features-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 2;
+}
+
+.features-title {
+  color: $titles-black-color;
+}
+
+.features-text {
+  color: $text-secondary-color;
+}
+
+.features-img {
+  width: 700px;
+  height: 519px;
+  background-image: url("../img/section-you-get-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column: 2 / 3;
+  position: relative;
+  left: 40px;
+
+  @media (max-width: 1072px) {
+    width: 100%;
+    left: 70px;
+    background-size: contain;
+    background-position: right;
+  }
+
+  @media (max-width: 700px) {
+    height: 400px;
+  }
+
+  @media (max-width: 500px) {
+    height: 381px;
+    background-size: cover;
+    background-position: left;
+  }
+}
