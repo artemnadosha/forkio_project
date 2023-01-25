@@ -1,0 +1,89 @@
+.hero {
+  width: 100%;
+  padding-top: 83px;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 19px;
+  user-select: none;
+
+  @media (max-width: 992px) {
+    padding-top: 69px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 82px;
+  line-height: 100%;
+  color: $page-secondary-color;
+
+  @media (max-width: 992px) {
+    font-size: 72px;
+  }
+  
+  @media (max-width: 481px) {
+    font-size: 48px;
+  }
+}
+
+.hero-subtitle {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  @media (max-width: 992px) {
+    font-size: 24px;
+  }
+  @media (max-width: 605px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 481px) {
+    line-height: 24px;
+    text-align: center;
+  }
+}
+
+.hero-remark {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: $text-secondary-color;
+  @media (max-width: 992px) {
+    font-size: 14px;
+  }
+}
+
+.hero-container {
+  height: 100%;
+  position: relative;
+}
+
+.download-button {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 22px;
+  padding: 23px 61px;
+  border: 2px solid $page-primary-color;
+  position: absolute;
+  bottom: -35px;
+  
+  @media (max-width: 481px) {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 15px 29px;
+  }
+}
+
+.trial-text {
+  color: $text-secondary-color;
+  position: absolute;
+  bottom: -75px;
+}
