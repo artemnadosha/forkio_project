@@ -4,12 +4,20 @@
   color: $page-secondary-color;
   border-radius: 40px;
   padding: 11px 34px;
+  transition: all 0.25s linear;
 
   &:hover {
     background-color: $page-secondary-color;
     color: $page-primary-color;
   }
 }
+
+.header-size {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 
 @import "header-componets/header-navbar";
 @import "header-componets/header-hero";
