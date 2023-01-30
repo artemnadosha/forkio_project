@@ -148,6 +148,12 @@
   outline: none;
   border: none;
   border-radius: 42px;
+  cursor: pointer;
   background: rgba(255, 255, 255, 0.11);
   color: $text-primary-color;
+  transition: background-color 0.25s linear;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
 }
