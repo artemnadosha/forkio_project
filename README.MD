@@ -1,7 +1,7 @@
 # STEP PROJECT FORKIO
 
 **Макет**: [тык](https://www.figma.com/file/9lLwBJciU4yjDZBSnqqXSS/Forkio?node-id=0%3A1&t=MgJoDkab20jDQQmR-0)  
-**Гитхаб пейджес**: [тык]()
+**Гитхаб пейджес**: [тык](https://skyfull5.github.io/forkio_project/)
 
 Проект полностью адаптирован под мобильное устройство.
 
