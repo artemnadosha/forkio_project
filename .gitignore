@@ -1,0 +1,11 @@
+.idea/
+node_modules/
+prettierignore
+prettierrc.js
+.DS_Store
+gulp/version.json
+gulpfile.js
+src/
+gulp/
+package-lock.json
+package.json
